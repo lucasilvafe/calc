@@ -1,0 +1,128 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    background-color: rgb(39, 39, 39);
+}
+
+h1 {
+    color: #ffffff;
+}
+
+p {
+    color: #ffffff;
+}
+
+#area-calculo {
+    border: rgb(85, 50, 210) solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(40, 33, 72);
+    border-radius: 10px;
+    width: 450px;
+    height: 650px;
+}
+
+#aluno{
+    width: 90%;
+    margin-bottom: 5%;
+}
+
+select{
+    background-color: rgb(40, 33, 72);
+    color: #ffffff;
+    width: 100px;
+    height: 35px;
+    border: rgb(85, 50, 210) solid;
+    border-radius: 5px;
+}
+
+option{
+    background-color: rgb(40, 33, 72);
+}
+
+.area-turma{
+    display: flex;
+    flex-direction: column;
+    border: solid rgb(85, 10, 310);
+    width: 90%;
+    height: 30%;
+}
+
+
+.turma{
+    display: flex;
+    justify-content: center;
+}
+
+.alfabeto-classe p{
+    letter-spacing: 100px;
+    margin-left: 15.5%;
+}
+
+.area-de-input{
+    display: flex;
+}
+
+.notas{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+input {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: rgb(85, 50, 210) solid;
+    color: #ffffff;
+    background-color: rgb(30, 24, 53);
+    border-radius: 5px;
+    margin-bottom: 5%;
+    width: 100px;
+    height: 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input::placeholder{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+label{
+    color: #ffffff;
+}
+
+
+button {
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: #ffffff;
+    background-color: rgb(85, 50, 210);
+    cursor: pointer;
+}
+
+button:hover {
+    color: #ffffff;
+    background-color: rgb(85, 10, 310);
+}
+
+#res{
+    color: #ffffff;
+}
+
+#sit{
+    color: rgb(184, 135, 37);
+}

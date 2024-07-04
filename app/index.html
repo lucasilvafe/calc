@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/style.css">
+    <script defer src="../js/calculo.js"></script>
+    <title>Media</title>
+</head>
+
+<body>
+
+    <div>
+        <h1>Calculadora de Média</h1>
+    </div>
+    <div id="area-calculo">
+        <input type="text" placeholder="Aluno(a)" id="aluno">
+        
+
+        <div class="ano-letivo">
+        <label for="ano">Ano Letivo:</label>
+        <input id="ano" type="number" min="1" max="9">
+
+        <label for="">Turno:</label>
+        <select name="turno" id="turno">
+            <option value="Matutino">Matutino</option>
+            <option value="Vespertino">Vespertino</option>
+        </select>
+        </div>
+
+        <label for="">Turma</label>
+        <div class="alfabeto-classe">
+                <p>ABC</p>
+        </div>
+        <div class="turma">
+            <div class="area-de-input">
+                <input type="radio" name="turma" value="a">
+                <input type="radio" name="turma" value="b">
+                <input type="radio" name="turma" value="c">
+            </div>
+
+        </div>
+
+        <div class="notas">
+        <label for="number">Nota 1</label>
+        <input type="number" id="nota1" min="0" max="10">
+        <label for="number">Nota 2</label>
+        <input type="number" id="nota2" min="0" max="10">
+        <label for="number">Nota 3</label>
+        <input type="number" id="nota3" min="0" max="10">
+        <label for="number">Nota 4</label>
+        <input type="number" id="nota4" min="0" max="10">
+        </div>
+        
+        <button onclick="calculo()">Calcular</button>
+    </div>
+
+
+    <p id="res"></p>
+    <p id="sit"></p>
+</body>
+
+</html>
